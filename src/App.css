@@ -1,11 +1,88 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+}
+
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.style {
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+    padding: 3.5rem;
+    box-shadow: 0 0 2rem rgba(55, 71, 79, 0.225);
+    width: 500px;
+}
+
+.Timer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Timer p {
+  font-weight:400;
+  
+}
+
+.Timer input {
+  width: 10%;
+  height: 25px;
+  margin: auto 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-color: #00B4CC;
+  flex-grow: 2;
+}
+
+.Timer button {
+  background-color: #00B4CC;
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form {
+  display: inline-block;
+  
+}
+.form .inp{
+    width: 50%;
+    height: 25px;
+    padding: 5px 10px;
+    margin: auto 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.butt {
+    line-height: 10px;
+    text-align: center;
+    background-color: #7b7b7b;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 10px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
